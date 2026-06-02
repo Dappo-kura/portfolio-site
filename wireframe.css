@@ -446,23 +446,25 @@ a:hover {
 }
 
 .app-card__media--icon {
-  display: grid;
-  place-items: center;
-  padding: clamp(24px, 5vw, 48px);
-  background:
-    radial-gradient(circle at 50% 45%, rgba(116, 213, 200, 0.18), transparent 38%),
-    #0f1412;
+  padding: 0;
+  background: #0f1412;
 }
 
 .app-icon {
   display: block;
-  width: min(42%, 168px);
-  height: auto;
-  max-height: 168px;
-  aspect-ratio: 1;
-  border-radius: 24%;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.34);
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.app-card:first-child .app-icon {
+  object-position: center top;
+}
+
+.app-card:nth-child(2) .app-icon {
+  object-position: center 36%;
 }
 
 .app-card__body {
