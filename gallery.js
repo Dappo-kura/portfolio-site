@@ -1,0 +1,469 @@
+(() => {
+  const galleryData = {
+  "animation": [
+    {
+      "id": "animation-1",
+      "type": "animation",
+      "category": "animation",
+      "title": "Animation 01",
+      "src": "./assets/animations/01_compo.webp",
+      "before": null,
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "animation-2",
+      "type": "animation",
+      "category": "animation",
+      "title": "Animation 02",
+      "src": "./assets/animations/02_idle.webp",
+      "before": null,
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "animation-3",
+      "type": "animation",
+      "category": "animation",
+      "title": "Animation 03",
+      "src": "./assets/animations/03_bandicam.webp",
+      "before": null,
+      "after": null,
+      "hasComparison": false
+    }
+  ],
+  "original": [
+    {
+      "id": "original-1",
+      "type": "image",
+      "category": "original",
+      "title": "Key Train 1",
+      "src": "./image/original/01_key-train_1+.png",
+      "before": "./image/original/01_key-train_1.png",
+      "after": "./image/original/01_key-train_1+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-2",
+      "type": "image",
+      "category": "original",
+      "title": "00028 3822599585",
+      "src": "./image/original/02_00028-3822599585+.png",
+      "before": "./image/original/02_00028-3822599585.png",
+      "after": "./image/original/02_00028-3822599585+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-3",
+      "type": "image",
+      "category": "original",
+      "title": "00087 84865215",
+      "src": "./image/original/03_00087-84865215+.png",
+      "before": "./image/original/03_00087-84865215.png",
+      "after": "./image/original/03_00087-84865215+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-4",
+      "type": "image",
+      "category": "original",
+      "title": "Title",
+      "src": "./image/original/03_title+.png",
+      "before": "./image/original/03_title.png",
+      "after": "./image/original/03_title+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-5",
+      "type": "image",
+      "category": "original",
+      "title": "00004 1910148323",
+      "src": "./image/original/04_00004-1910148323+.png",
+      "before": "./image/original/04_00004-1910148323.png",
+      "after": "./image/original/04_00004-1910148323+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-6",
+      "type": "image",
+      "category": "original",
+      "title": "Yui 1",
+      "src": "./image/original/05_yui‗1+.png",
+      "before": "./image/original/05_yui‗1.png",
+      "after": "./image/original/05_yui‗1+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-7",
+      "type": "image",
+      "category": "original",
+      "title": "Tamaki",
+      "src": "./image/original/06_tamaki+.png",
+      "before": "./image/original/06_tamaki.png",
+      "after": "./image/original/06_tamaki+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-8",
+      "type": "image",
+      "category": "original",
+      "title": "00097 3355558804",
+      "src": "./image/original/07_00097-3355558804+.png",
+      "before": "./image/original/07_00097-3355558804.png",
+      "after": "./image/original/07_00097-3355558804+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-9",
+      "type": "image",
+      "category": "original",
+      "title": "00117 1913174930",
+      "src": "./image/original/08_00117-1913174930+.png",
+      "before": "./image/original/08_00117-1913174930.png",
+      "after": "./image/original/08_00117-1913174930+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-10",
+      "type": "image",
+      "category": "original",
+      "title": "00032 1598856347",
+      "src": "./image/original/09_00032-1598856347+.png",
+      "before": "./image/original/09_00032-1598856347.png",
+      "after": "./image/original/09_00032-1598856347+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-11",
+      "type": "image",
+      "category": "original",
+      "title": "00052 1414418899",
+      "src": "./image/original/10_00052-1414418899+.png",
+      "before": null,
+      "after": "./image/original/10_00052-1414418899+.png",
+      "hasComparison": false
+    },
+    {
+      "id": "original-12",
+      "type": "image",
+      "category": "original",
+      "title": "00002 2229585589",
+      "src": "./image/original/11_00002-2229585589+.png",
+      "before": "./image/original/11_00002-2229585589.png",
+      "after": "./image/original/11_00002-2229585589+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-13",
+      "type": "image",
+      "category": "original",
+      "title": "00053 4173355433",
+      "src": "./image/original/12_00053-4173355433+.png",
+      "before": "./image/original/12_00053-4173355433.png",
+      "after": "./image/original/12_00053-4173355433+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-14",
+      "type": "image",
+      "category": "original",
+      "title": "00006 2971885923",
+      "src": "./image/original/13_00006-2971885923+.png",
+      "before": "./image/original/13_00006-2971885923.png",
+      "after": "./image/original/13_00006-2971885923+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "original-15",
+      "type": "image",
+      "category": "original",
+      "title": "00006 2274765061",
+      "src": "./image/original/14_00006-2274765061.png",
+      "before": "./image/original/14_00006-2274765061.png",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-16",
+      "type": "image",
+      "category": "original",
+      "title": "00001 150311282",
+      "src": "./image/original/15_00001-150311282.png",
+      "before": "./image/original/15_00001-150311282.png",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-17",
+      "type": "image",
+      "category": "original",
+      "title": "00017 3542809863",
+      "src": "./image/original/16_00017-3542809863.png",
+      "before": "./image/original/16_00017-3542809863.png",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-18",
+      "type": "image",
+      "category": "original",
+      "title": "HHPEEVDaIAAieTa",
+      "src": "./image/original/17_HHPEEVDaIAAieTa.jpg",
+      "before": "./image/original/17_HHPEEVDaIAAieTa.jpg",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-19",
+      "type": "image",
+      "category": "original",
+      "title": "HHPFSc8bkAA6t3O",
+      "src": "./image/original/18_HHPFSc8bkAA6t3O.jpg",
+      "before": "./image/original/18_HHPFSc8bkAA6t3O.jpg",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-20",
+      "type": "image",
+      "category": "original",
+      "title": "HIsBwOKaIAANMCb",
+      "src": "./image/original/19_HIsBwOKaIAANMCb.jpg",
+      "before": "./image/original/19_HIsBwOKaIAANMCb.jpg",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "original-21",
+      "type": "image",
+      "category": "original",
+      "title": "HI2UM QawAAUpQI",
+      "src": "./image/original/20_HI2UM_QawAAUpQI.jpg",
+      "before": "./image/original/20_HI2UM_QawAAUpQI.jpg",
+      "after": null,
+      "hasComparison": false
+    }
+  ],
+  "fanart": [
+    {
+      "id": "fanart-1",
+      "type": "image",
+      "category": "fanart",
+      "title": "00014 499828593",
+      "src": "./image/fanart/01_00014-499828593+.png",
+      "before": "./image/fanart/01_00014-499828593.png",
+      "after": "./image/fanart/01_00014-499828593+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "fanart-2",
+      "type": "image",
+      "category": "fanart",
+      "title": "00003 3679644096",
+      "src": "./image/fanart/02_00003-3679644096+.png",
+      "before": "./image/fanart/02_00003-3679644096.png",
+      "after": "./image/fanart/02_00003-3679644096+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "fanart-3",
+      "type": "image",
+      "category": "fanart",
+      "title": "00123 1652753649",
+      "src": "./image/fanart/03_00123-1652753649+.png",
+      "before": "./image/fanart/03_00123-1652753649.png",
+      "after": "./image/fanart/03_00123-1652753649+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "fanart-4",
+      "type": "image",
+      "category": "fanart",
+      "title": "00030 447696409",
+      "src": "./image/fanart/04_00030-447696409+.png",
+      "before": "./image/fanart/04_00030-447696409.png",
+      "after": "./image/fanart/04_00030-447696409+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "fanart-5",
+      "type": "image",
+      "category": "fanart",
+      "title": "00073 2032031907",
+      "src": "./image/fanart/05_00073-2032031907.png",
+      "before": "./image/fanart/05_00073-2032031907.png",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "fanart-6",
+      "type": "image",
+      "category": "fanart",
+      "title": "00126 280589000",
+      "src": "./image/fanart/06_00126-280589000.png",
+      "before": "./image/fanart/06_00126-280589000.png",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "fanart-7",
+      "type": "image",
+      "category": "fanart",
+      "title": "HDDKkttaIAAQm1D",
+      "src": "./image/fanart/07_HDDKkttaIAAQm1D.jpg",
+      "before": "./image/fanart/07_HDDKkttaIAAQm1D.jpg",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "fanart-8",
+      "type": "image",
+      "category": "fanart",
+      "title": "HDNLQHOaIAE0q1n",
+      "src": "./image/fanart/08_HDNLQHOaIAE0q1n.jpg",
+      "before": "./image/fanart/08_HDNLQHOaIAE0q1n.jpg",
+      "after": null,
+      "hasComparison": false
+    },
+    {
+      "id": "fanart-9",
+      "type": "image",
+      "category": "fanart",
+      "title": "00010 781934906",
+      "src": "./image/fanart/09_00010-781934906+.png",
+      "before": "./image/fanart/09_00010-781934906.png",
+      "after": "./image/fanart/09_00010-781934906+.png",
+      "hasComparison": true
+    },
+    {
+      "id": "fanart-10",
+      "type": "image",
+      "category": "fanart",
+      "title": "00008 3662531788",
+      "src": "./image/fanart/10_00008-3662531788.png",
+      "before": "./image/fanart/10_00008-3662531788.png",
+      "after": null,
+      "hasComparison": false
+    }
+  ]
+};
+  const flatItems = [...galleryData.animation, ...galleryData.original, ...galleryData.fanart];
+  let currentIndex = 0;
+  let lastFocusedTile = null;
+
+  const lightbox = document.getElementById('gallery-lightbox');
+  const mediaSlot = document.getElementById('lightbox-media');
+  const titleEl = document.getElementById('lightbox-title');
+  const categoryEl = document.getElementById('lightbox-category');
+  const closeButton = lightbox?.querySelector('.gallery-lightbox__close');
+  const nextButton = lightbox?.querySelector('.gallery-lightbox__nav--next');
+  const prevButton = lightbox?.querySelector('.gallery-lightbox__nav--prev');
+
+  function renderTile(item, index) {
+    const tile = document.createElement('button');
+    tile.className = item.type === 'animation' ? 'gallery-tile gallery-tile--animation' : 'gallery-tile';
+    tile.type = 'button';
+    tile.dataset.galleryIndex = String(index);
+    tile.setAttribute('aria-label', item.hasComparison ? item.title + ' before after view' : item.title + ' enlarged view');
+
+    const img = document.createElement('img');
+    img.src = item.src;
+    img.alt = item.title;
+    img.loading = 'lazy';
+    img.draggable = false;
+
+    const label = document.createElement('span');
+    const title = document.createElement('strong');
+    const category = document.createElement('small');
+    title.textContent = item.title;
+    category.textContent = item.hasComparison ? item.category + ' / before after' : item.category;
+    label.append(title, category);
+
+    tile.append(img, label);
+    tile.addEventListener('click', () => openLightbox(index, tile));
+    return tile;
+  }
+
+  function renderRails() {
+    document.querySelectorAll('[data-gallery-rail]').forEach((rail) => {
+      const key = rail.dataset.galleryRail;
+      const items = galleryData[key] || [];
+      rail.innerHTML = '';
+      items.forEach((item) => {
+        const index = flatItems.findIndex((candidate) => candidate.id === item.id);
+        rail.appendChild(renderTile(item, index));
+      });
+    });
+  }
+
+  function comparisonMarkup(item) {
+    return '<div class="comparison" style="--split: 50%">' +
+      '<img class="comparison__image comparison__image--before" src="' + item.before + '" alt="' + item.title + ' before">' +
+      '<img class="comparison__image comparison__image--after" src="' + item.after + '" alt="' + item.title + ' after">' +
+      '<div class="comparison__divider" aria-hidden="true"></div>' +
+      '<div class="comparison__labels" aria-hidden="true"><span>Before</span><span>After</span></div>' +
+      '<input class="comparison__range" type="range" min="0" max="100" value="50" aria-label="Before after slider">' +
+      '</div>';
+  }
+
+  function singleImageMarkup(item) {
+    return '<img class="gallery-lightbox__image" src="' + item.src + '" alt="' + item.title + '">';
+  }
+
+  function setLightboxContent(item) {
+    mediaSlot.innerHTML = item.hasComparison ? comparisonMarkup(item) : singleImageMarkup(item);
+    titleEl.textContent = item.title;
+    categoryEl.textContent = item.hasComparison ? item.category + ' / retouch before after' : item.category;
+
+    const comparison = mediaSlot.querySelector('.comparison');
+    const range = mediaSlot.querySelector('.comparison__range');
+    if (comparison && range) {
+      const update = () => comparison.style.setProperty('--split', range.value + '%');
+      range.addEventListener('input', update);
+      update();
+    }
+  }
+
+  function openLightbox(index, sourceTile) {
+    currentIndex = index;
+    lastFocusedTile = sourceTile || document.activeElement;
+    setLightboxContent(flatItems[currentIndex]);
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('lightbox-open');
+    nextButton.focus({ preventScroll: true });
+  }
+
+  function closeLightbox() {
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('lightbox-open');
+    mediaSlot.innerHTML = '';
+    if (lastFocusedTile && typeof lastFocusedTile.focus === 'function') {
+      lastFocusedTile.focus({ preventScroll: true });
+    }
+  }
+
+  function showOffset(offset) {
+    currentIndex = (currentIndex + offset + flatItems.length) % flatItems.length;
+    setLightboxContent(flatItems[currentIndex]);
+  }
+
+  closeButton?.addEventListener('click', closeLightbox);
+  nextButton?.addEventListener('click', () => showOffset(1));
+  prevButton?.addEventListener('click', () => showOffset(-1));
+
+  lightbox?.addEventListener('click', (event) => {
+    const keepOpenTarget = event.target.closest(
+      '.gallery-lightbox__image, .comparison, .comparison__range, .gallery-lightbox__close, .gallery-lightbox__nav'
+    );
+    if (!keepOpenTarget) closeLightbox();
+  });
+
+  window.addEventListener('keydown', (event) => {
+    if (lightbox?.getAttribute('aria-hidden') === 'true') return;
+    if (event.key === 'Escape') closeLightbox();
+    if (event.key === 'ArrowRight') showOffset(1);
+    if (event.key === 'ArrowLeft') showOffset(-1);
+  });
+
+  renderRails();
+})();
