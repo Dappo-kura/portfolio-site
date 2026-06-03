@@ -104,9 +104,9 @@
           "type":  "image",
           "category":  "original",
           "title":  "Yui 1",
-          "src":  "./image/original/05_yui\u2017 1+.png",
-          "before":  "./image/original/05_yui\u2017 1.png",
-          "after":  "./image/original/05_yui\u2017 1+.png",
+          "src":  "./image/original/05_yui\u20171+.png",
+          "before":  "./image/original/05_yui\u20171.png",
+          "after":  "./image/original/05_yui\u20171+.png",
           "hasComparison":  true,
           "description": "ビネットイラストの実験。怪しい雰囲気を演出するためにカラー変更を行った。",
           "tools": "Stable Diffusion / Photoshop"
