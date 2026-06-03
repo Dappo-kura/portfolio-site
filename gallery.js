@@ -10,7 +10,7 @@
       "before": null,
       "after": null,
       "hasComparison": false,
-      "description": "ポケポケぽいアニメーションを作ってみたいと思い実験。キャラ、背景、エフェクトのそれぞれを動画生成しUnity上で組み合わせた。グリーンバックを自動削除する透過アニメーションワークフローを作成し、削除しきれない部分をAfter Effectsで処理。",
+      "description": "カードゲーム風の演出表現を想定したアニメーション実験です。\nキャラクター、背景、エフェクトをそれぞれAIで生成・動画化し、Unity上で合成しました。\nまた、グリーンバックを自動削除して透過アニメーション化するワークフローを構築し、削除しきれない部分はAfter Effectsで補正しています。\nAI生成素材をゲーム演出に組み込むための検証として制作しました。",
       "tools": "Stable Diffusion / ComfyUI / After Effects / Unity"
     },
     {
@@ -22,7 +22,7 @@
       "before": null,
       "after": null,
       "hasComparison": false,
-      "description": "アドベンチャーゲームの立ち絵をアニメーション化させることを目的に生成。グリーンバック指定で立ち絵を生成し、透過合成。",
+      "description": "アドベンチャーゲーム向けの立ち絵アニメーション検証です。\nグリーンバック指定で生成したキャラクター素材をもとに、ComfyUIで動きを付け、After Effectsで透過処理と仕上げを行いました。\n静止画のAIイラストを、ゲーム内で使用しやすいアニメーション素材へ変換することを目的に制作しています。",
       "tools": "Stable Diffusion / ComfyUI / After Effects"
     },
     {
@@ -34,275 +34,275 @@
       "before": null,
       "after": null,
       "hasComparison": false,
-      "description": "個人開発中のADVゲームのQTE画面をキャプチャ。ComfyUIでアニメーション化したデータとゲームUIが重なった状態。",
-      "tools": "Stable Diffusion / ComfyUI / Godot"
+      "description": "個人開発中のADVゲームにおけるQTE画面のキャプチャです。\nComfyUIでアニメーション化したキャラクター素材と、Godot上で実装したゲームUIを組み合わせています。\nAI生成素材を実際のゲーム画面に組み込み、演出・UI・操作体験が成立するかを検証しました。",
+      "tools": "Stable Diffusion / ComfyUI / Godot\n## Original"
     }
   ],
   "original": [
-      {
-          "id":  "original-1",
-          "type":  "image",
-          "category":  "original",
-          "title":  "Key Train 1",
-          "src":  "./image/original/01_key-train_1+.png",
-          "before":  "./image/original/01_key-train_1.png",
-          "after":  "./image/original/01_key-train_1+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のADVゲームのコンセプトアート。AI生成物特有の歪みを活かして世界観構築を行うことを意識し、サイバーパンクとホラーを組み合わせた。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-2",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00028 3822599585",
-          "src":  "./image/original/02_00028-3822599585+.png",
-          "before":  "./image/original/02_00028-3822599585.png",
-          "after":  "./image/original/02_00028-3822599585+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のADVゲームのキービジュアル。不必要な描きこみや不要なオブジェクトを削除し、キャラデザイン画に合わせてカラーの変更などをおこなった。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-3",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00087 84865215",
-          "src":  "./image/original/03_00087-84865215+.png",
-          "before":  "./image/original/03_00087-84865215.png",
-          "after":  "./image/original/03_00087-84865215+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-4",
-          "type":  "image",
-          "category":  "original",
-          "title":  "Title",
-          "src":  "./image/original/03_title+.png",
-          "before":  "./image/original/03_title.png",
-          "after":  "./image/original/03_title+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のパズルゲームのタイトルイラスト。書き足しと背後のお化けイラストを合成。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-5",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00004 1910148323",
-          "src":  "./image/original/04_00004-1910148323+.png",
-          "before":  "./image/original/04_00004-1910148323.png",
-          "after":  "./image/original/04_00004-1910148323+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除し、トリミングを行った。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-6",
-          "type":  "image",
-          "category":  "original",
-          "title":  "Yui 1",
-          "src":  "./image/original/05_yui\u20171+.png",
-          "before":  "./image/original/05_yui\u20171.png",
-          "after":  "./image/original/05_yui\u20171+.png",
-          "hasComparison":  true,
-          "description": "ビネットイラストの実験。怪しい雰囲気を演出するためにカラー変更を行った。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-7",
-          "type":  "image",
-          "category":  "original",
-          "title":  "Tamaki",
-          "src":  "./image/original/06_tamaki+.png",
-          "before":  "./image/original/06_tamaki.png",
-          "after":  "./image/original/06_tamaki+.png",
-          "hasComparison":  true,
-          "description": "ビネットイラストの実験。怪しい雰囲気を演出するためにカラー変更を行った。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-8",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00097 3355558804",
-          "src":  "./image/original/07_00097-3355558804+.png",
-          "before":  "./image/original/07_00097-3355558804.png",
-          "after":  "./image/original/07_00097-3355558804+.png",
-          "hasComparison":  true,
-          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除し、カラー変更を行った。",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-9",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00117 1913174930",
-          "src":  "./image/original/08_00117-1913174930+.png",
-          "before":  "./image/original/08_00117-1913174930.png",
-          "after":  "./image/original/08_00117-1913174930+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-10",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00119 3869684533",
-          "src":  "./image/original/08_00119-3869684533.png",
-          "before":  "./image/original/08_00119-3869684533.png",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-11",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00018 1495794574",
-          "src":  "./image/original/09_00018-1495794574+.png",
-          "before":  "./image/original/00018-1495794574.png",
-          "after":  "./image/original/09_00018-1495794574+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-12",
-          "type":  "image",
-          "category":  "original",
-          "title":  "18 HHPFSc8bkAA6t3O",
-          "src":  "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
-          "before":  "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-13",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00002 2229585589",
-          "src":  "./image/original/11_00002-2229585589+.png",
-          "before":  "./image/original/11_00002-2229585589.png",
-          "after":  "./image/original/11_00002-2229585589+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-14",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00053 4173355433",
-          "src":  "./image/original/12_00053-4173355433+.png",
-          "before":  "./image/original/12_00053-4173355433.png",
-          "after":  "./image/original/12_00053-4173355433+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-15",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00006 2971885923",
-          "src":  "./image/original/13_00006-2971885923+.png",
-          "before":  "./image/original/13_00006-2971885923.png",
-          "after":  "./image/original/13_00006-2971885923+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-16",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00006 2274765061",
-          "src":  "./image/original/14_00006-2274765061+.png",
-          "before":  "./image/original/14_00006-2274765061.png",
-          "after":  "./image/original/14_00006-2274765061+.png",
-          "hasComparison":  true,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      },
-      {
-          "id":  "original-18",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00013 3054809222",
-          "src":  "./image/original/14_00013-3054809222.png",
-          "before":  "./image/original/14_00013-3054809222.png",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-19",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00001 150311282",
-          "src":  "./image/original/15_00001-150311282.png",
-          "before":  "./image/original/15_00001-150311282.png",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-20",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00017 3542809863",
-          "src":  "./image/original/16_00017-3542809863.png",
-          "before":  "./image/original/16_00017-3542809863.png",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-21",
-          "type":  "image",
-          "category":  "original",
-          "title":  "HHPEEVDaIAAieTa",
-          "src":  "./image/original/17_HHPEEVDaIAAieTa.jpg",
-          "before":  "./image/original/17_HHPEEVDaIAAieTa.jpg",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-22",
-          "type":  "image",
-          "category":  "original",
-          "title":  "HIsBwOKaIAANMCb",
-          "src":  "./image/original/19_HIsBwOKaIAANMCb.jpg",
-          "before":  "./image/original/19_HIsBwOKaIAANMCb.jpg",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion"
-      },
-      {
-          "id":  "original-23",
-          "type":  "image",
-          "category":  "original",
-          "title":  "HI2UM QawAAUpQI",
-          "src":  "./image/original/20_HI2UM_QawAAUpQI.jpg",
-          "before":  "./image/original/20_HI2UM_QawAAUpQI.jpg",
-          "after":  null,
-          "hasComparison":  false,
-          "description": "",
-          "tools": "Stable Diffusion / Photoshop"
-      }
+    {
+      "id": "original-1",
+      "type": "image",
+      "category": "original",
+      "title": "Key Train 1",
+      "src": "./image/original/01_key-train_1+.png",
+      "before": "./image/original/01_key-train_1.png",
+      "after": "./image/original/01_key-train_1+.png",
+      "hasComparison": true,
+      "description": "個人開発中のADVゲーム用コンセプトアートです。\nサイバーパンクとホラーを組み合わせ、AI生成特有の歪みや不穏さを世界観表現として活用しました。\n単なる背景イラストではなく、作品全体の空気感や物語の方向性を検討するためのビジュアルとして制作しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-2",
+      "type": "image",
+      "category": "original",
+      "title": "00028 3822599585",
+      "src": "./image/original/02_00028-3822599585+.png",
+      "before": "./image/original/02_00028-3822599585.png",
+      "after": "./image/original/02_00028-3822599585+.png",
+      "hasComparison": true,
+      "description": "個人開発中のADVゲーム用キービジュアルです。\nStable Diffusionで生成した素材をもとに、Photoshopで不要な描き込みやオブジェクトを削除し、キャラクターデザインに合わせて配色を調整しました。\nAI出力をそのまま使用せず、ゲームの世界観やキャラクター設定に合うように整えています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-3",
+      "type": "image",
+      "category": "original",
+      "title": "00087 84865215",
+      "src": "./image/original/03_00087-84865215+.png",
+      "before": "./image/original/03_00087-84865215.png",
+      "after": "./image/original/03_00087-84865215+.png",
+      "hasComparison": true,
+      "description": "個人開発中のADVゲーム用イベントイラストです。\nAI生成後に、画面内の不要な描き込みやノイズをPhotoshopで整理し、イベントシーンとして見やすい構図に調整しました。\nゲーム内で使用する一枚絵として、視線誘導と雰囲気作りを意識しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-4",
+      "type": "image",
+      "category": "original",
+      "title": "Title",
+      "src": "./image/original/03_title+.png",
+      "before": "./image/original/03_title.png",
+      "after": "./image/original/03_title+.png",
+      "hasComparison": true,
+      "description": "個人開発中のホラー整理パズルゲーム用タイトルイラストです。\nStable Diffusionで生成した素材に対して、必要な要素を描き足し、背後のお化けイラストを合成しました。\nタイトル画面として、ゲーム内容が伝わる不気味さとキャッチーさの両立を意識しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-5",
+      "type": "image",
+      "category": "original",
+      "title": "00004 1910148323",
+      "src": "./image/original/04_00004-1910148323+.png",
+      "before": "./image/original/04_00004-1910148323.png",
+      "after": "./image/original/04_00004-1910148323+.png",
+      "hasComparison": true,
+      "description": "個人開発中のADVゲーム用イベントイラストです。\nAI生成後に、不要な描き込みを削除し、ゲーム画面で使いやすい比率にトリミングしました。\nシーンの印象を損なわず、実装しやすいイベントCGとして整えることを目的に制作しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-6",
+      "type": "image",
+      "category": "original",
+      "title": "Yui 1",
+      "src": "./image/original/05_yui‗1+.png",
+      "before": "./image/original/05_yui‗1.png",
+      "after": "./image/original/05_yui‗1+.png",
+      "hasComparison": true,
+      "description": "キャラクターの印象を強めるためのビネットイラスト実験です。\nStable Diffusionで生成した素材をもとに、Photoshopで色味を調整し、怪しさや不穏な雰囲気が伝わるように仕上げました。\nキャラクター単体で世界観を伝える表現を意識しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-7",
+      "type": "image",
+      "category": "original",
+      "title": "Tamaki",
+      "src": "./image/original/06_tamaki+.png",
+      "before": "./image/original/06_tamaki.png",
+      "after": "./image/original/06_tamaki+.png",
+      "hasComparison": true,
+      "description": "キャラクターの雰囲気を検証するためのビネットイラストです。\nAI生成素材に対して色調補正を行い、ミステリアスで不穏な印象が出るように調整しました。\nキャラクター性と作品世界のトーンを両立させることを目的に制作しています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-8",
+      "type": "image",
+      "category": "original",
+      "title": "00097 3355558804",
+      "src": "./image/original/07_00097-3355558804+.png",
+      "before": "./image/original/07_00097-3355558804.png",
+      "after": "./image/original/07_00097-3355558804+.png",
+      "hasComparison": true,
+      "description": "個人開発中のADVゲーム用イベントイラストです。\nStable Diffusionで生成した素材をもとに、不要な描き込みを削除し、Photoshopでカラー調整を行いました。\nイベントシーンとしての視認性と、作品全体の不穏な空気感が両立するように仕上げています。",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-9",
+      "type": "image",
+      "category": "original",
+      "title": "00117 1913174930",
+      "src": "./image/original/08_00117-1913174930+.png",
+      "before": "./image/original/08_00117-1913174930.png",
+      "after": "./image/original/08_00117-1913174930+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-10",
+      "type": "image",
+      "category": "original",
+      "title": "00119 3869684533",
+      "src": "./image/original/08_00119-3869684533.png",
+      "before": "./image/original/08_00119-3869684533.png",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-11",
+      "type": "image",
+      "category": "original",
+      "title": "00018 1495794574",
+      "src": "./image/original/09_00018-1495794574+.png",
+      "before": "./image/original/00018-1495794574.png",
+      "after": "./image/original/09_00018-1495794574+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-12",
+      "type": "image",
+      "category": "original",
+      "title": "18 HHPFSc8bkAA6t3O",
+      "src": "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
+      "before": "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-13",
+      "type": "image",
+      "category": "original",
+      "title": "00002 2229585589",
+      "src": "./image/original/11_00002-2229585589+.png",
+      "before": "./image/original/11_00002-2229585589.png",
+      "after": "./image/original/11_00002-2229585589+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-14",
+      "type": "image",
+      "category": "original",
+      "title": "00053 4173355433",
+      "src": "./image/original/12_00053-4173355433+.png",
+      "before": "./image/original/12_00053-4173355433.png",
+      "after": "./image/original/12_00053-4173355433+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-15",
+      "type": "image",
+      "category": "original",
+      "title": "00006 2971885923",
+      "src": "./image/original/13_00006-2971885923+.png",
+      "before": "./image/original/13_00006-2971885923.png",
+      "after": "./image/original/13_00006-2971885923+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-16",
+      "type": "image",
+      "category": "original",
+      "title": "00006 2274765061",
+      "src": "./image/original/14_00006-2274765061+.png",
+      "before": "./image/original/14_00006-2274765061.png",
+      "after": "./image/original/14_00006-2274765061+.png",
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
+    },
+    {
+      "id": "original-18",
+      "type": "image",
+      "category": "original",
+      "title": "00013 3054809222",
+      "src": "./image/original/14_00013-3054809222.png",
+      "before": "./image/original/14_00013-3054809222.png",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-19",
+      "type": "image",
+      "category": "original",
+      "title": "00001 150311282",
+      "src": "./image/original/15_00001-150311282.png",
+      "before": "./image/original/15_00001-150311282.png",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-20",
+      "type": "image",
+      "category": "original",
+      "title": "00017 3542809863",
+      "src": "./image/original/16_00017-3542809863.png",
+      "before": "./image/original/16_00017-3542809863.png",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-21",
+      "type": "image",
+      "category": "original",
+      "title": "HHPEEVDaIAAieTa",
+      "src": "./image/original/17_HHPEEVDaIAAieTa.jpg",
+      "before": "./image/original/17_HHPEEVDaIAAieTa.jpg",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-22",
+      "type": "image",
+      "category": "original",
+      "title": "HIsBwOKaIAANMCb",
+      "src": "./image/original/19_HIsBwOKaIAANMCb.jpg",
+      "before": "./image/original/19_HIsBwOKaIAANMCb.jpg",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
+    },
+    {
+      "id": "original-23",
+      "type": "image",
+      "category": "original",
+      "title": "HI2UM QawAAUpQI",
+      "src": "./image/original/20_HI2UM_QawAAUpQI.jpg",
+      "before": "./image/original/20_HI2UM_QawAAUpQI.jpg",
+      "after": null,
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop\n## Fanart"
+    }
   ],
   "fanart": [
     {
@@ -314,7 +314,7 @@
       "before": "./image/fanart/01_00014-499828593.png",
       "after": "./image/fanart/01_00014-499828593+.png",
       "hasComparison": true,
-      "description": "",
+      "description": "Stable Diffusionで生成した素材をもとに、Photoshopで異常に細くなった腰とスカートの加筆を行いました。\nPhotoshopで不要な部分を削除",
       "tools": "Stable Diffusion / Photoshop"
     },
     {
@@ -326,7 +326,7 @@
       "before": "./image/fanart/02_00003-3679644096.png",
       "after": "./image/fanart/02_00003-3679644096+.png",
       "hasComparison": true,
-      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "description": "リファレンス画像をNano Bananaで作成し、その構図や雰囲気をもとにStable Diffusionで生成したファンアートです。\nPhotoshopで不要な部分を削除し、キャラクターの印象が伝わりやすいように仕上げました。\nリファレンス作成から生成、レタッチまでの一連の制作フローを検証しています。",
       "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
@@ -338,7 +338,7 @@
       "before": "./image/fanart/03_00123-1652753649.png",
       "after": "./image/fanart/03_00123-1652753649+.png",
       "hasComparison": true,
-      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "description": "リファレンス画像をNano Bananaで作成し、その構図や雰囲気をもとにStable Diffusionで生成したファンアートです。\nPhotoshopで不要な部分を削除し、キャラクターの印象が伝わりやすいように仕上げました。\nリファレンス作成から生成、レタッチまでの一連の制作フローを検証しています。",
       "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
@@ -350,7 +350,7 @@
       "before": "./image/fanart/04_00030-447696409.png",
       "after": "./image/fanart/04_00030-447696409+.png",
       "hasComparison": true,
-      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "description": "リファレンス画像をNano Bananaで作成し、その構図や雰囲気をもとにStable Diffusionで生成したファンアートです。\nPhotoshopで不要な部分を削除し、キャラクターの印象が伝わりやすいように仕上げました。\nリファレンス作成から生成、レタッチまでの一連の制作フローを検証しています。",
       "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
@@ -423,7 +423,7 @@
       "after": null,
       "hasComparison": false,
       "description": "",
-      "tools": "Stable Diffusion"
+      "tools": "Stable Diffusion\n## Apps"
     }
   ]
 };

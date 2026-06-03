@@ -471,11 +471,13 @@ a:hover {
   color: var(--ink);
   font-size: 0.88rem;
   line-height: 1.6;
+  white-space: pre-line;
 }
 
 .lightbox-tools {
   color: var(--muted);
   font-size: 0.75rem;
+  white-space: pre-line;
 }
 
 .visually-hidden {
@@ -729,6 +731,7 @@ a:hover {
 .app-card__tools {
   font-size: 0.78rem;
   color: var(--muted);
+  white-space: pre-line;
 }
 
 .tag-list {
