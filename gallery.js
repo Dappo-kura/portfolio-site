@@ -188,20 +188,10 @@
           "type":  "image",
           "category":  "original",
           "title":  "00006 2274765061",
-          "src":  "./image/original/14_00006-2274765061.png",
+          "src":  "./image/original/14_00006-2274765061+.png",
           "before":  "./image/original/14_00006-2274765061.png",
-          "after":  null,
-          "hasComparison":  false
-      },
-      {
-          "id":  "original-17",
-          "type":  "image",
-          "category":  "original",
-          "title":  "00006 2274765061",
-          "src":  "./image/original/14_00006-2274765061-.png",
-          "before":  "./image/original/14_00006-2274765061-.png",
-          "after":  null,
-          "hasComparison":  false
+          "after":  "./image/original/14_00006-2274765061+.png",
+          "hasComparison":  true
       },
       {
           "id":  "original-18",
