@@ -471,6 +471,7 @@ a:hover {
 }
 
 .gallery-lightbox__close {
+  display: none;
   top: 14px;
   right: 14px;
   padding: 0.4rem 0.7rem;
@@ -546,7 +547,7 @@ a:hover {
   position: absolute;
   z-index: 2;
   top: 12px;
-  right: 76px;
+  right: 12px;
   left: 12px;
   display: flex;
   justify-content: space-between;
@@ -869,6 +870,6 @@ a:hover {
   }
 
   .comparison__labels {
-    right: 58px;
+    right: 12px;
   }
 }
