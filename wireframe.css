@@ -322,6 +322,19 @@ a:hover {
   flex-basis: clamp(180px, 18vw, 260px);
 }
 
+.gallery-category--animation .gallery-rail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: visible;
+  padding: 4px 0;
+}
+
+.gallery-category--animation .gallery-tile--animation {
+  flex: none;
+  width: 100%;
+  height: clamp(220px, 32vw, 480px);
+}
+
 .gallery-tile:hover,
 .gallery-tile:focus-visible {
   flex-basis: clamp(160px, 16vw, 220px);
@@ -335,7 +348,8 @@ a:hover {
   flex-basis: clamp(220px, 24vw, 340px);
 }
 
-.gallery-tile img {
+.gallery-tile img,
+.gallery-tile video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -345,7 +359,9 @@ a:hover {
 }
 
 .gallery-tile:hover img,
-.gallery-tile:focus-visible img {
+.gallery-tile:focus-visible img,
+.gallery-tile:hover video,
+.gallery-tile:focus-visible video {
   filter: grayscale(0%) brightness(1);
   transform: scale(1);
 }
@@ -854,6 +870,14 @@ a:hover {
   .gallery-tile {
     flex-basis: 42vw;
     height: min(68vw, 320px);
+  }
+
+  .gallery-category--animation .gallery-rail {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery-category--animation .gallery-tile--animation {
+    height: 40vw;
   }
 
   .gallery-tile:hover,
