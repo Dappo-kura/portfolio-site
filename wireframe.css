@@ -522,14 +522,17 @@ a:hover {
 
 .comparison__image--before {
   background: #050707;
+  clip-path: inset(0 calc(100% - var(--split)) 0 0);
+  z-index: 1;
 }
 
 .comparison__image--after {
-  clip-path: inset(0 calc(100% - var(--split)) 0 0);
+  z-index: 0;
 }
 
 .comparison__divider {
   position: absolute;
+  z-index: 2;
   top: 0;
   bottom: 0;
   left: var(--split);
@@ -541,6 +544,7 @@ a:hover {
 
 .comparison__labels {
   position: absolute;
+  z-index: 2;
   top: 12px;
   right: 76px;
   left: 12px;
@@ -562,6 +566,7 @@ a:hover {
 
 .comparison__range {
   position: absolute;
+  z-index: 2;
   right: 20px;
   bottom: 18px;
   left: 20px;
