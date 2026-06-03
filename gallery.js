@@ -6,7 +6,7 @@
       "type": "animation",
       "category": "animation",
       "title": "Animation 01",
-      "src": "./assets/animations/01_compo.webp",
+      "src": "./assets/animations/01_compo.mp4",
       "before": null,
       "after": null,
       "hasComparison": false
@@ -16,7 +16,7 @@
       "type": "animation",
       "category": "animation",
       "title": "Animation 02",
-      "src": "./assets/animations/02_idle.webp",
+      "src": "./assets/animations/02_idle.mp4",
       "before": null,
       "after": null,
       "hasComparison": false
@@ -369,6 +369,8 @@
   const nextButton = lightbox?.querySelector('.gallery-lightbox__nav--next');
   const prevButton = lightbox?.querySelector('.gallery-lightbox__nav--prev');
 
+  function isVideoSrc(src) { return src.endsWith('.mp4') || src.endsWith('.webm'); }
+
   function renderTile(item, index) {
     const tile = document.createElement('button');
     tile.className = item.type === 'animation' ? 'gallery-tile gallery-tile--animation' : 'gallery-tile';
@@ -376,11 +378,22 @@
     tile.dataset.galleryIndex = String(index);
     tile.setAttribute('aria-label', item.hasComparison ? item.title + ' before after view' : item.title + ' enlarged view');
 
-    const img = document.createElement('img');
-    img.src = item.src;
-    img.alt = item.title;
-    img.loading = 'lazy';
-    img.draggable = false;
+    let img;
+    if (isVideoSrc(item.src)) {
+      img = document.createElement('video');
+      img.src = item.src;
+      img.autoplay = true;
+      img.loop = true;
+      img.muted = true;
+      img.playsInline = true;
+      img.setAttribute('aria-label', item.title);
+    } else {
+      img = document.createElement('img');
+      img.src = item.src;
+      img.alt = item.title;
+      img.loading = 'lazy';
+      img.draggable = false;
+    }
 
     const label = document.createElement('span');
     const title = document.createElement('strong');
@@ -417,6 +430,9 @@
   }
 
   function singleImageMarkup(item) {
+    if (isVideoSrc(item.src)) {
+      return '<video class="gallery-lightbox__image" src="' + item.src + '" autoplay loop muted playsinline controls></video>';
+    }
     return '<img class="gallery-lightbox__image" src="' + item.src + '" alt="' + item.title + '">';
   }
 
