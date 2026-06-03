@@ -9,7 +9,9 @@
       "src": "./assets/animations/01_compo.mp4",
       "before": null,
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "ポケポケぽいアニメーションを作ってみたいと思い実験。キャラ、背景、エフェクトのそれぞれを動画生成しUnity上で組み合わせた。グリーンバックを自動削除する透過アニメーションワークフローを作成し、削除しきれない部分をAfter Effectsで処理。",
+      "tools": "Stable Diffusion / ComfyUI / After Effects / Unity"
     },
     {
       "id": "animation-2",
@@ -19,7 +21,9 @@
       "src": "./assets/animations/02_idle.mp4",
       "before": null,
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "アドベンチャーゲームの立ち絵をアニメーション化させることを目的に生成。グリーンバック指定で立ち絵を生成し、透過合成。",
+      "tools": "Stable Diffusion / ComfyUI / After Effects"
     },
     {
       "id": "animation-3",
@@ -29,7 +33,9 @@
       "src": "./assets/animations/03_bandicam.webp",
       "before": null,
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "個人開発中のADVゲームのQTE画面をキャプチャ。ComfyUIでアニメーション化したデータとゲームUIが重なった状態。",
+      "tools": "Stable Diffusion / ComfyUI / Godot"
     }
   ],
   "original": [
@@ -41,7 +47,9 @@
           "src":  "./image/original/01_key-train_1+.png",
           "before":  "./image/original/01_key-train_1.png",
           "after":  "./image/original/01_key-train_1+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のADVゲームのコンセプトアート。AI生成物特有の歪みを活かして世界観構築を行うことを意識し、サイバーパンクとホラーを組み合わせた。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-2",
@@ -51,7 +59,9 @@
           "src":  "./image/original/02_00028-3822599585+.png",
           "before":  "./image/original/02_00028-3822599585.png",
           "after":  "./image/original/02_00028-3822599585+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のADVゲームのキービジュアル。不必要な描きこみや不要なオブジェクトを削除し、キャラデザイン画に合わせてカラーの変更などをおこなった。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-3",
@@ -61,7 +71,9 @@
           "src":  "./image/original/03_00087-84865215+.png",
           "before":  "./image/original/03_00087-84865215.png",
           "after":  "./image/original/03_00087-84865215+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-4",
@@ -71,7 +83,9 @@
           "src":  "./image/original/03_title+.png",
           "before":  "./image/original/03_title.png",
           "after":  "./image/original/03_title+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のパズルゲームのタイトルイラスト。書き足しと背後のお化けイラストを合成。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-5",
@@ -81,17 +95,21 @@
           "src":  "./image/original/04_00004-1910148323+.png",
           "before":  "./image/original/04_00004-1910148323.png",
           "after":  "./image/original/04_00004-1910148323+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除し、トリミングを行った。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-6",
           "type":  "image",
           "category":  "original",
           "title":  "Yui 1",
-          "src":  "./image/original/05_yui‗1+.png",
-          "before":  "./image/original/05_yui‗1.png",
-          "after":  "./image/original/05_yui‗1+.png",
-          "hasComparison":  true
+          "src":  "./image/original/05_yui\u2017 1+.png",
+          "before":  "./image/original/05_yui\u2017 1.png",
+          "after":  "./image/original/05_yui\u2017 1+.png",
+          "hasComparison":  true,
+          "description": "ビネットイラストの実験。怪しい雰囲気を演出するためにカラー変更を行った。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-7",
@@ -101,7 +119,9 @@
           "src":  "./image/original/06_tamaki+.png",
           "before":  "./image/original/06_tamaki.png",
           "after":  "./image/original/06_tamaki+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "ビネットイラストの実験。怪しい雰囲気を演出するためにカラー変更を行った。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-8",
@@ -111,7 +131,9 @@
           "src":  "./image/original/07_00097-3355558804+.png",
           "before":  "./image/original/07_00097-3355558804.png",
           "after":  "./image/original/07_00097-3355558804+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "個人開発中のADVゲームのイベント絵。不必要な描きこみを削除し、カラー変更を行った。",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-9",
@@ -121,7 +143,9 @@
           "src":  "./image/original/08_00117-1913174930+.png",
           "before":  "./image/original/08_00117-1913174930.png",
           "after":  "./image/original/08_00117-1913174930+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-10",
@@ -131,7 +155,9 @@
           "src":  "./image/original/08_00119-3869684533.png",
           "before":  "./image/original/08_00119-3869684533.png",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-11",
@@ -141,7 +167,9 @@
           "src":  "./image/original/09_00018-1495794574+.png",
           "before":  "./image/original/00018-1495794574.png",
           "after":  "./image/original/09_00018-1495794574+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-12",
@@ -151,7 +179,9 @@
           "src":  "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
           "before":  "./image/original/09_18_HHPFSc8bkAA6t3O.jpg",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-13",
@@ -161,7 +191,9 @@
           "src":  "./image/original/11_00002-2229585589+.png",
           "before":  "./image/original/11_00002-2229585589.png",
           "after":  "./image/original/11_00002-2229585589+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-14",
@@ -171,7 +203,9 @@
           "src":  "./image/original/12_00053-4173355433+.png",
           "before":  "./image/original/12_00053-4173355433.png",
           "after":  "./image/original/12_00053-4173355433+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-15",
@@ -181,7 +215,9 @@
           "src":  "./image/original/13_00006-2971885923+.png",
           "before":  "./image/original/13_00006-2971885923.png",
           "after":  "./image/original/13_00006-2971885923+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-16",
@@ -191,7 +227,9 @@
           "src":  "./image/original/14_00006-2274765061+.png",
           "before":  "./image/original/14_00006-2274765061.png",
           "after":  "./image/original/14_00006-2274765061+.png",
-          "hasComparison":  true
+          "hasComparison":  true,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       },
       {
           "id":  "original-18",
@@ -201,7 +239,9 @@
           "src":  "./image/original/14_00013-3054809222.png",
           "before":  "./image/original/14_00013-3054809222.png",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-19",
@@ -211,7 +251,9 @@
           "src":  "./image/original/15_00001-150311282.png",
           "before":  "./image/original/15_00001-150311282.png",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-20",
@@ -221,7 +263,9 @@
           "src":  "./image/original/16_00017-3542809863.png",
           "before":  "./image/original/16_00017-3542809863.png",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-21",
@@ -231,7 +275,9 @@
           "src":  "./image/original/17_HHPEEVDaIAAieTa.jpg",
           "before":  "./image/original/17_HHPEEVDaIAAieTa.jpg",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-22",
@@ -241,7 +287,9 @@
           "src":  "./image/original/19_HIsBwOKaIAANMCb.jpg",
           "before":  "./image/original/19_HIsBwOKaIAANMCb.jpg",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion"
       },
       {
           "id":  "original-23",
@@ -251,7 +299,9 @@
           "src":  "./image/original/20_HI2UM_QawAAUpQI.jpg",
           "before":  "./image/original/20_HI2UM_QawAAUpQI.jpg",
           "after":  null,
-          "hasComparison":  false
+          "hasComparison":  false,
+          "description": "",
+          "tools": "Stable Diffusion / Photoshop"
       }
   ],
   "fanart": [
@@ -263,7 +313,9 @@
       "src": "./image/fanart/01_00014-499828593+.png",
       "before": "./image/fanart/01_00014-499828593.png",
       "after": "./image/fanart/01_00014-499828593+.png",
-      "hasComparison": true
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
     },
     {
       "id": "fanart-2",
@@ -273,7 +325,9 @@
       "src": "./image/fanart/02_00003-3679644096+.png",
       "before": "./image/fanart/02_00003-3679644096.png",
       "after": "./image/fanart/02_00003-3679644096+.png",
-      "hasComparison": true
+      "hasComparison": true,
+      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
       "id": "fanart-3",
@@ -283,7 +337,9 @@
       "src": "./image/fanart/03_00123-1652753649+.png",
       "before": "./image/fanart/03_00123-1652753649.png",
       "after": "./image/fanart/03_00123-1652753649+.png",
-      "hasComparison": true
+      "hasComparison": true,
+      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
       "id": "fanart-4",
@@ -293,7 +349,9 @@
       "src": "./image/fanart/04_00030-447696409+.png",
       "before": "./image/fanart/04_00030-447696409.png",
       "after": "./image/fanart/04_00030-447696409+.png",
-      "hasComparison": true
+      "hasComparison": true,
+      "description": "リファレンス画像をNano Bananaで用意し、Stable Diffusionで生成。Photoshopで不要な部分を削除。",
+      "tools": "Stable Diffusion / Photoshop / Nano Banana"
     },
     {
       "id": "fanart-5",
@@ -303,7 +361,9 @@
       "src": "./image/fanart/05_00073-2032031907.png",
       "before": "./image/fanart/05_00073-2032031907.png",
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
     },
     {
       "id": "fanart-6",
@@ -313,7 +373,9 @@
       "src": "./image/fanart/06_00126-280589000.png",
       "before": "./image/fanart/06_00126-280589000.png",
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
     },
     {
       "id": "fanart-7",
@@ -323,7 +385,9 @@
       "src": "./image/fanart/07_HDDKkttaIAAQm1D.jpg",
       "before": "./image/fanart/07_HDDKkttaIAAQm1D.jpg",
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
     },
     {
       "id": "fanart-8",
@@ -333,7 +397,9 @@
       "src": "./image/fanart/08_HDNLQHOaIAE0q1n.jpg",
       "before": "./image/fanart/08_HDNLQHOaIAE0q1n.jpg",
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
     },
     {
       "id": "fanart-9",
@@ -343,7 +409,9 @@
       "src": "./image/fanart/09_00010-781934906+.png",
       "before": "./image/fanart/09_00010-781934906.png",
       "after": "./image/fanart/09_00010-781934906+.png",
-      "hasComparison": true
+      "hasComparison": true,
+      "description": "",
+      "tools": "Stable Diffusion / Photoshop"
     },
     {
       "id": "fanart-10",
@@ -353,7 +421,9 @@
       "src": "./image/fanart/10_00008-3662531788.png",
       "before": "./image/fanart/10_00008-3662531788.png",
       "after": null,
-      "hasComparison": false
+      "hasComparison": false,
+      "description": "",
+      "tools": "Stable Diffusion"
     }
   ]
 };
@@ -365,6 +435,8 @@
   const mediaSlot = document.getElementById('lightbox-media');
   const titleEl = document.getElementById('lightbox-title');
   const categoryEl = document.getElementById('lightbox-category');
+  const descriptionEl = document.getElementById('lightbox-description');
+  const toolsEl = document.getElementById('lightbox-tools');
   const closeButton = lightbox?.querySelector('.gallery-lightbox__close');
   const nextButton = lightbox?.querySelector('.gallery-lightbox__nav--next');
   const prevButton = lightbox?.querySelector('.gallery-lightbox__nav--prev');
@@ -378,31 +450,35 @@
     tile.dataset.galleryIndex = String(index);
     tile.setAttribute('aria-label', item.hasComparison ? item.title + ' before after view' : item.title + ' enlarged view');
 
-    let img;
+    let media;
     if (isVideoSrc(item.src)) {
-      img = document.createElement('video');
-      img.src = item.src;
-      img.autoplay = true;
-      img.loop = true;
-      img.muted = true;
-      img.playsInline = true;
-      img.setAttribute('aria-label', item.title);
+      media = document.createElement('video');
+      media.src = item.src;
+      media.autoplay = true;
+      media.loop = true;
+      media.muted = true;
+      media.playsInline = true;
+      media.setAttribute('aria-label', item.title);
     } else {
-      img = document.createElement('img');
-      img.src = item.src;
-      img.alt = item.title;
-      img.loading = 'lazy';
-      img.draggable = false;
+      media = document.createElement('img');
+      media.src = item.src;
+      media.alt = item.title;
+      media.loading = 'lazy';
+      media.draggable = false;
     }
 
     const label = document.createElement('span');
-    const title = document.createElement('strong');
     const category = document.createElement('small');
-    title.textContent = item.title;
-    category.textContent = item.hasComparison ? item.category + ' / before after' : item.category;
-    label.append(title, category);
+    category.textContent = item.hasComparison ? item.category + ' / before·after' : item.category;
+    if (item.tools) {
+      const tools = document.createElement('strong');
+      tools.textContent = item.tools;
+      label.append(tools, category);
+    } else {
+      label.append(category);
+    }
 
-    tile.append(img, label);
+    tile.append(media, label);
     tile.addEventListener('click', () => openLightbox(index, tile));
     return tile;
   }
@@ -438,8 +514,10 @@
 
   function setLightboxContent(item) {
     mediaSlot.innerHTML = item.hasComparison ? comparisonMarkup(item) : singleImageMarkup(item);
-    titleEl.textContent = item.title;
+    if (titleEl) titleEl.textContent = item.title;
     categoryEl.textContent = item.hasComparison ? item.category + ' / retouch before after' : item.category;
+    if (descriptionEl) descriptionEl.textContent = item.description || '';
+    if (toolsEl) toolsEl.textContent = item.tools ? item.tools : '';
 
     const comparison = mediaSlot.querySelector('.comparison');
     const range = mediaSlot.querySelector('.comparison__range');
