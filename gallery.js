@@ -35,7 +35,7 @@
       "after": null,
       "hasComparison": false,
       "description": "個人開発中のADVゲームにおけるQTE画面のキャプチャです。\nComfyUIでアニメーション化したキャラクター素材と、Godot上で実装したゲームUIを組み合わせています。\nAI生成素材を実際のゲーム画面に組み込み、演出・UI・操作体験が成立するかを検証しました。",
-      "tools": "Stable Diffusion / ComfyUI / Godot\n## Original"
+      "tools": "Stable Diffusion / ComfyUI / Godot"
     }
   ],
   "original": [
@@ -48,7 +48,7 @@
       "before": "./image/original/01_key-train_1.png",
       "after": "./image/original/01_key-train_1+.png",
       "hasComparison": true,
-      "description": "個人開発中のADVゲーム用コンセプトアートです。\nサイバーパンクとホラーを組み合わせ、AI生成特有の歪みや不穏さを世界観表現として活用しました。\n単なる背景イラストではなく、作品全体の空気感や物語の方向性を検討するためのビジュアルとして制作しています。",
+      "description": "個人開発中のADVゲーム用コンセプトアートです。\nサイバーパンクとホラーを組み合わせ、AI生成特有の歪みや不穏さを世界観表現として活用しました。\nPhotoshopで不要な部分を削除、カラー変更、効果を追加しました。",
       "tools": "Stable Diffusion / Photoshop"
     },
     {
@@ -72,7 +72,7 @@
       "before": "./image/original/03_00087-84865215.png",
       "after": "./image/original/03_00087-84865215+.png",
       "hasComparison": true,
-      "description": "個人開発中のADVゲーム用イベントイラストです。\nAI生成後に、画面内の不要な描き込みやノイズをPhotoshopで整理し、イベントシーンとして見やすい構図に調整しました。\nゲーム内で使用する一枚絵として、視線誘導と雰囲気作りを意識しています。",
+      "description": "個人開発中のADVゲーム用イベントイラストです。\nゲーム内で使用する一枚絵として、視線誘導と雰囲気作りを意識しています。\nAI生成後に、AI特有の描きこみをなくしました。",
       "tools": "Stable Diffusion / Photoshop"
     },
     {
@@ -301,7 +301,7 @@
       "after": null,
       "hasComparison": false,
       "description": "",
-      "tools": "Stable Diffusion / Photoshop\n## Fanart"
+      "tools": "Stable Diffusion / Photoshop"
     }
   ],
   "fanart": [
@@ -423,7 +423,7 @@
       "after": null,
       "hasComparison": false,
       "description": "",
-      "tools": "Stable Diffusion\n## Apps"
+      "tools": "Stable Diffusion"
     }
   ]
 };
