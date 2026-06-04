@@ -16,6 +16,16 @@
   box-sizing: border-box;
 }
 
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.5em;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -171,6 +181,13 @@ main,
   font-size: 4.4rem;
   line-height: 0.95;
   font-weight: 700;
+}
+
+.hero__name-en {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
 }
 
 .hero__lead {
@@ -825,6 +842,13 @@ main,
   font-weight: 700;
 }
 
+.profile-name-en {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
 .profile-text {
   display: grid;
   gap: 1rem;
@@ -870,6 +894,12 @@ main,
 
 .site-footer p {
   margin: 0;
+}
+
+.footer-name-en {
+  font-size: 0.85em;
+  color: var(--muted);
+  letter-spacing: 0.1em;
 }
 
 @media (max-width: 760px) {
