@@ -496,11 +496,14 @@
   }
 
   function comparisonMarkup(item) {
-    return '<div class="comparison" style="--split: 50%">' +
+    return '<div class="comparison" data-focus="balanced" style="--split: 50%">' +
       '<img class="comparison__image comparison__image--before" src="' + item.before + '" alt="' + item.title + ' before">' +
       '<img class="comparison__image comparison__image--after" src="' + item.after + '" alt="' + item.title + ' after">' +
       '<div class="comparison__divider" aria-hidden="true"></div>' +
-      '<div class="comparison__labels" aria-hidden="true"><span>Before</span><span>After</span></div>' +
+      '<div class="comparison__labels" aria-hidden="true">' +
+      '<span class="comparison__label comparison__label--before">Before</span>' +
+      '<span class="comparison__label comparison__label--after">After</span>' +
+      '</div>' +
       '<input class="comparison__range" type="range" min="0" max="100" value="50" aria-label="Before after slider">' +
       '</div>';
   }
@@ -522,7 +525,11 @@
     const comparison = mediaSlot.querySelector('.comparison');
     const range = mediaSlot.querySelector('.comparison__range');
     if (comparison && range) {
-      const update = () => comparison.style.setProperty('--split', range.value + '%');
+      const update = () => {
+        const value = Number(range.value);
+        comparison.style.setProperty('--split', value + '%');
+        comparison.dataset.focus = value > 56 ? 'before' : value < 44 ? 'after' : 'balanced';
+      };
       range.addEventListener('input', update);
       update();
     }
