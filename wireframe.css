@@ -16,16 +16,6 @@
   box-sizing: border-box;
 }
 
-ruby {
-  ruby-align: center;
-}
-
-rt {
-  font-size: 0.5em;
-  color: var(--muted);
-  letter-spacing: 0.05em;
-}
-
 html {
   scroll-behavior: smooth;
 }
